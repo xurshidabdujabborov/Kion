@@ -1,0 +1,141 @@
+footer {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: #101C21;
+    .md-block({
+      padding: 30px 0px;
+      margin-top: 50px;
+      
+    });
+    .footerEdu {
+      .md-block({
+          text-align: center;
+      });
+      .title {
+        .md-block({
+              border: none;
+              background: unset;
+              text-align: center !important;
+              display: block;
+          });
+      }
+      .icons {
+        .md-block({
+              justify-content: center;
+              margin-bottom: 20px;
+      });
+      }
+    }
+    h3.title {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 40px;
+      color: white;
+      margin-bottom: 24px;
+      .fa {
+        display: none;
+        .md-block({
+              display: block;
+          });
+      }
+      .md-block({
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 20px;
+          margin-bottom: 18px;
+          margin-top: 18px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 10px;
+          background: #F3F7F4;
+          color: #555;
+          border: 2px solid black;
+          border-radius: 6px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+      });
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: white;
+      margin-top: 24px;
+      margin-bottom: 30px;
+      .md-block({
+          font-size: 14px;
+          margin: 20px 0px;
+      });
+    }
+    .icons {
+      display: flex;
+      svg{
+        width: 20px;
+        height: 20px;
+           margin: 24px 35px;
+           &:hover{
+            cursor: pointer;
+            transform: rotate(360deg);
+            transition: 1s;
+           }
+       }
+    }
+    ul {
+      .md-block({
+          display: none;
+      });
+      li {
+        margin-bottom: 16px;
+  
+        a {
+          font-size: 16px;
+          line-height: 21px;
+          font-weight: 400;
+          color: white;
+          &:hover {
+            .fa {
+              cursor: pointer;
+              transition: 0.5s;
+              transform: rotate(90deg);
+            }
+          }
+          .fa {
+            margin-right: 15px;
+            color: white;
+          }
+        }
+      }
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      .md-block({
+          text-align: left;
+          display: none;
+      });
+      .title {
+        margin-bottom: 24px;
+      }
+      a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: white;
+        margin-bottom: 16px;
+        display: inline-block;
+        .fa {
+          margin-right: 8px;
+        }
+        &:hover {
+          .fa {
+            transition: 0.5s;
+            cursor: pointer;
+            transform: rotate(360deg);
+            color: #086cf9;
+          }
+        }
+      }
+    }
+  }
